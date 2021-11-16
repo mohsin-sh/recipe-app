@@ -1,0 +1,25 @@
+.recipe-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.recipe-name{
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+@media (max-width: 500px) {
+    .recipe-img{
+        height: 150px;
+        width: 150px;
+    }
+    .recipe-name{
+        max-width: 150px;
+        margin: 12px 0px;
+    }
+}
+
+
